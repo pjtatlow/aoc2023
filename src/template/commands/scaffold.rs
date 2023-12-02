@@ -9,10 +9,22 @@ use crate::Day;
 const MODULE_TEMPLATE: &str = r#"advent_of_code::solution!(DAY_NUMBER);
 
 pub fn part_one(input: &str) -> Option<u32> {
+    let answer: u32 = input
+        .lines()
+        .map(|line| line.trim())
+        .filter(|line| line.len() > 0)
+        .map(|line| 0)
+        .sum();
     None
 }
 
 pub fn part_two(input: &str) -> Option<u32> {
+    let answer: u32 = input
+        .lines()
+        .map(|line| line.trim())
+        .filter(|line| line.len() > 0)
+        .map(|line| 0)
+        .sum();
     None
 }
 
